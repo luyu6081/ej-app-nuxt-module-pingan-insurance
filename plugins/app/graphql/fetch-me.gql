@@ -1,0 +1,11 @@
+query me {
+  me: getLoginUser {
+    id: userId
+    username
+    name
+    email
+    avatar: userAvatar
+    permissionCodes
+    tenantName
+  }
+}
